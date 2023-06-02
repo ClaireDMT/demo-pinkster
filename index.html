@@ -16,12 +16,19 @@
       <h2>Feeling Slow</h2>
 
       <form action="">
-        <input type="email">
-        <input type="password" class="password-input">
+        <label for="email">Email:</label>
+        <input type="email"  name="email" required>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="password-input" required>
+      
         <button type="submit">Login</button>
       </form>
 
-      <p class="error-message"></p>
+
+       
+
+      <p class="error-message pulsate"></p>
 
       <h3>We will speed you up!</h3>
       <img src="images/screenshot2.jpg" alt="map of berlin">
